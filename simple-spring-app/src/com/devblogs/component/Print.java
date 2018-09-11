@@ -7,10 +7,11 @@ import org.springframework.beans.factory.annotation.*; //Autowired;
 @Component
 public class Print {
 	@Autowired
-	@Qualifier("circle")
+	@Qualifier("rectangle")
 	
     private Figure figure;
- 
+ // ;;
+	// I added this in dev_update branch
     public Print() {
         System.out.println("Bean print is being created");
     }
