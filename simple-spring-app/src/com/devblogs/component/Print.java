@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.*; //Autowired;
 @Component
 public class Print {
 	@Autowired
-	@Qualifier("rectangle")
+	@Qualifier("circle")
 	
     private Figure figure;
  // ;;
